@@ -19,7 +19,6 @@ const app = {
             name: 'Future',
             dungtich: 4.6,
             img:'./src/images/future.png'
-            //img:'https://cdn.honda.com.vn/motorbikes/October2021/hh4jnThIf9hpjbSHzan5.png'
         },
         {
             name: 'Air Blade',

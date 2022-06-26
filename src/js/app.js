@@ -52,8 +52,8 @@ function show() {
     var money = choose__select.value;
     const giaxang = pvoil[0].price;
     const litxang = Number(money / giaxang)
-    const car = getValueCar();
-    const doduoc = Number(litxang).toFixed(2)
+    // const car = getValueCar();
+    // const doduoc = Number(litxang).toFixed(2)
     render()
 
 }
