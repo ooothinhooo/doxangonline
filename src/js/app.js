@@ -1,5 +1,14 @@
 const car__select= $('#car__select')
 const choose__select = $('#choose__select')
+const alert_title = $$('.alert_title')
+const content = $$('.content')
+
+const btn_ok= $('#btn_ok').addEventListener('click',()=>{
+    content.forEach((e)=>{
+        e.classList.toggle('active')
+    })
+})
+
 
 $('#car__select').addEventListener('change', ()=>{
     show();
@@ -79,7 +88,11 @@ function render() {
     //document.body.style.backgroundImage = `url('${app.car[giatri].img}')`;
     $('#course').innerHTML = html
     const btnFull = $('#full').addEventListener('click', () => {
-        alert(`Cần ${full}K thì bạn sẽ đổ được đầy bình`)
+        
+        content.forEach((e)=>{
+            e.classList.toggle('active')
+            alert_title[0].innerHTML=` Bạn cần ${full}K để có thể đổ đầy bình xăng xe bạn nhé`
+        })
     });
 }
 

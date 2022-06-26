@@ -4,157 +4,215 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	background-image: linear-gradient(45deg, #ffffff, #75d7b3);
-	font-family: 'Muli', sans-serif;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	height: 50vh;
-	margin: 0;
+  background-image: linear-gradient(45deg, #ffffff, #75d7b3);
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  margin: 0;
   /* background-image: url('https://cdn.honda.com.vn/motorbike-generation/December2021/x8Hc2CCtYv7BKa6kuK6j.png'); */
 }
 
-:root{
-  --primary:rgb(95, 181, 234);
+:root {
+  --primary: rgb(95, 181, 234);
 }
 
 .course {
-	background-color: #fff;
-	border-radius: 10px;
-	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-	display: flex;
-	max-width: 100%;
-	margin: 20px;
-	overflow: hidden;
-	width: 700px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  max-width: 100%;
+  margin: 20px;
+  overflow: hidden;
+  width: 700px;
 }
 
 .course h6 {
-	opacity: 0.6;
-	margin: 0;
-	letter-spacing: 1px;
-	text-transform: uppercase;
+  opacity: 0.6;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 
 .course h2 {
-	letter-spacing: 1px;
-	margin: 10px 0;
+  letter-spacing: 1px;
+  margin: 10px 0;
 }
 
 .course-preview {
-	background-color: #2A265F;
-	color: #fff;
-	max-width: 250px;
+  background-color: #2A265F;
+  color: #fff;
+  max-width: 250px;
 }
-.course-preview img{
-	max-width: 250px;
+
+.course-preview img {
+  max-width: 250px;
   border-radius: 2px;
 }
+
 .course-preview a {
-	color: #fff;
-	display: inline-block;
-	font-size: 12px;
-	opacity: 0.6;
-	margin-top: 30px;
-	text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 30px;
+  text-decoration: none;
 }
 
 .course-info {
-	padding: 30px;
-	position: relative;
-	width: 100%;
+  padding: 30px;
+  position: relative;
+  width: 100%;
 }
 
 .progress-container {
-	position: absolute;
-	top: 30px;
-	right: 30px;
-	text-align: right;
-	width: fit-content;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  text-align: right;
+  width: fit-content;
 }
 
 .progress {
-	background-color: #ddd;
-	border-radius: 3px;
-	height: 5px;
-	width: 100%;
+  background-color: #ddd;
+  border-radius: 3px;
+  height: 5px;
+  width: 100%;
 }
 
 .progress::after {
-	border-radius: 3px;
-	background-color: #2A265F;
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 5px;
-	width: 10%;
+  border-radius: 3px;
+  background-color: #2A265F;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 10%;
 }
 
-.title{
-  font-size:10px;
-  color:rgb(55, 48, 48);
+.title {
+  font-size: 10px;
+  color: rgb(55, 48, 48);
 }
+
 .progress-text {
-	font-size: 10px;
-	opacity: 0.6;
-	letter-spacing: 1px;
+  font-size: 10px;
+  opacity: 0.6;
+  letter-spacing: 1px;
 }
 
 
 
 
 .child {
-    float: left;
-    margin: .5rem;
-    border-radius: .5rem;
-    bottom: 100%;
+  float: left;
+  margin: .5rem;
+  border-radius: .5rem;
+  bottom: 100%;
 }
 
 .btn {
-	background-color: #2A265F;
-	border: 0;
-	border-radius: 50px;
-	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-	color: #fff;
-	font-size: 16px;
+  background-color: #2A265F;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 16px;
 
 
 }
 
 
-.box__select{
-    width: 110px;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    border: 1px solid #ccc;
-    background-color:rgb(95, 182, 240);
-    border-radius:.3rem;
-    font-size: 1em sans-serif;
-    border-radius: 10px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+.box__select {
+  width: 110px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border: 1px solid #ccc;
+  background-color: rgb(95, 182, 240);
+  border-radius: .3rem;
+  font-size: 1em sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
-.car{
+
+.car {
   width: 200px;
 }
 
-.red{
+.red {
   color: red;
 }
 
+.alert {
+  border-radius: none;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #dbdbdd9a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.alert_box {
+  max-width: 0 auto;
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  height: 200px;
+  border-radius: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.alert_box p {
+  color: rgb(0, 0, 0);
+  padding: 15px;
+}
+
+.btn_ok {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60px;
+  padding: 4px 4px 4px 4px;
+  background-color: rgb(96, 158, 239);
+  border-radius: .5rem;
+  box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn_ok:hover {
+  background-color: rgb(70, 104, 227);
+  border-radius: .5rem;
+}
+
+.active {
+  display: none;
+}
+
+
 @media screen and (min-width: 769px) {
+
   /* STYLES HERE */
   .course {
     /* background-color: #ccc; */
-      background:var(--primary);
+    background: var(--primary);
     border-radius: 10px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -163,33 +221,38 @@ body {
     overflow: hidden;
     width: 700px;
   }
-  .course-preview img{
+
+  .course-preview img {
     margin-top: 13%;
     position: absolute;
     transform: scale(2);
 
   }
-  .btn{
+
+  .btn {
     position: absolute;
-    margin-top:5px;
+    margin-top: 5px;
     margin-bottom: 5px;
     bottom: 2px;
     right: 20px;
   }
-  .title{
-    position:  absolute;
+
+  .title {
+    position: absolute;
     margin: 0 auto;
     right: 30%;
   }
 }
 
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+
   /* STYLES HERE */
-  body{
+  body {
     height: 100vh;
   }
+
   .course {
-    background:var(--primary);
+    background: var(--primary);
     /* background-color: #08b475; */
     border-radius: 10px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
@@ -199,26 +262,30 @@ body {
     overflow: hidden;
     width: 400px;
   }
-  .course-preview img{
+
+  .course-preview img {
     margin-top: 35%;
     width: 200px;
     transform: scale(1.8)
   }
-  .title{
-    position:  absolute;
+
+  .title {
+    position: absolute;
     margin: 0 auto;
     right: 30%;
   }
 }
 
 @media only screen and (max-device-width: 480px) {
+
   /* STYLES HERE */
-  body{
+  body {
     height: 100vh;
   }
+
   .course {
     /* background-color:#5c54cc; */
-      background:var(--primary);
+    background: var(--primary);
     border-radius: 10px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -227,14 +294,23 @@ body {
     overflow: hidden;
     width: 350px;
   }
-  .course-preview img{
+
+  .course-preview img {
     margin-top: 50%;
     width: 200px;
     transform: scale(1.6)
   }
-  .title{
-    position:  absolute;
+
+  .title {
+    position: absolute;
     margin: 0 auto;
     right: 30%;
+  }
+
+  .alert_box {
+    background-color: rgb(58, 199, 194);
+    width: 280px;
+    height: 200px;
+
   }
 }

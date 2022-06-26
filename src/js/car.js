@@ -8,7 +8,7 @@ const app = {
         {
             name: 'SH 150i & 125i',
             dungtich: 7.8,
-            img:'https://cdn.honda.com.vn/motorbike-generation/September2021/TEga9hxNjbR5TPKSmzOd.png'
+            img:'./src/images/sh150i.png'
         },
         {
             name: 'Winner X',
@@ -18,7 +18,8 @@ const app = {
         {
             name: 'Future',
             dungtich: 4.6,
-            img:'https://cdn.honda.com.vn/motorbikes/October2021/hh4jnThIf9hpjbSHzan5.png'
+            img:'./src/images/future.png'
+            //img:'https://cdn.honda.com.vn/motorbikes/October2021/hh4jnThIf9hpjbSHzan5.png'
         },
         {
             name: 'Air Blade',
