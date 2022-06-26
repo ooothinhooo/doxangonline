@@ -1,19 +1,29 @@
-
-
-const box = $('#box__select')
-const span_price = $('#span_price')
-const car__select = $('#car__select')
-const car = $('#car')
-
+const car__select= $('#car__select')
 const choose__select = $('#choose__select')
 
+$('#car__select').addEventListener('change', ()=>{
+    show();
+    getValueCar()
+})
+ function getValueCar() {
+        var car = car__select.value;
+        return car;
+    }
+$('#choose__select').addEventListener('change', ()=>{
+    show();
+    getValueMoney();
+    
+})
+function getValueMoney() {
+        var money = choose__select.value;
+        return money;
+    }
 function showCar() {
     const html = app.car.map((e, index) => {
         return `
         <option class="box__option"  value="${e.dungtich}">${e.name}</option>
         `
     })
-
     car__select.innerHTML = html.join('')
 }
 
@@ -28,23 +38,6 @@ function showMoney() {
 
 }
 
-function showValue() {
-    var ele = box__select.value;
-
-    const price = Number(ele) / pvoil[0].price;
-
-    document.getElementById('span_price').innerHTML = `Giá Trị ${ele}`;
-}
-
-function getValueMoney() {
-    var money = choose__select.value;
-    return money;
-}
-
-function getValueCar() {
-    var car = car__select.value;
-    return car;
-}
 
 function show() {
     var money = choose__select.value;
@@ -94,8 +87,6 @@ function main() {
     showCar()
     showMoney()
     show()
-
-
 }
 
 main()
