@@ -7,15 +7,50 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="short icon " href="./src/images/logo.ico">
-    <script src="./src/js/car.js"></script>
-<script src="./src/js/pvoil.js"></script>
-<script src="./src/js/main.js"></script>
     <title>Đỗ Xăng Online</title>
 </head>
 <body>
     <div class="root" id="root">
+        <div class="container box ">
+            <div class="row">
+              <div class="col col-md-auto">
+                <div class=" child" id="car">
+                  <select class="box__select car"  id="car__select" onchange="getValueCar(), show()">
+                    </select>
+                </div>
+              </div>
+              <div class="col col-md-auto">
+                <div class="choose child" id="choose">
+                  <select class="box__select "  id="choose__select" onchange="getValueMoney(), show()">
+                  </select>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="courses-container">
+            <div class="course" id="course">
+            <!-- <div class="course-preview">
+            <img src="https://source.unsplash.com/KUfkX6gVwBU/600x400" alt="">
+            </div>
+            <div class="course-info">
+            <div class="progress-container">
+            <div class="progress"></div>
+            <span class="progress-text">
+              6/9 Challenges
+            </span>
+            </div>
+            <h6>Chapter 4</h6>
+            <h2>Callbacks & Closures</h2>
+            <button class="btn" id="full">Đỗ Đầy Bình</button>
+            </div> -->
+            </div>
+            </div>
+            <p class ="title">Giá xăng được sữ dụng tính là: ${pvoil[0].price.toFixed(3)} VNĐ</p>
+            
     </div>
 </body>
-
+<script src="./src/js/car.js"></script>
+<script src="./src/js/pvoil.js"></script>
+<script src="./src/js/main.js"></script>
 <script src="./src/js/app.js"></script>
 </html>
