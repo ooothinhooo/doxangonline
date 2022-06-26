@@ -14,7 +14,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	height: 100vh;
+	height: 50vh;
 	margin: 0;
   /* background-image: url('https://cdn.honda.com.vn/motorbike-generation/December2021/x8Hc2CCtYv7BKa6kuK6j.png'); */
 }
@@ -166,12 +166,14 @@ body {
   .course-preview img{
     margin-top: 13%;
     position: absolute;
-    transform: scale(1.8);
+    transform: scale(2);
 
   }
   .btn{
     position: absolute;
-    bottom: 15px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    bottom: 2px;
     right: 20px;
   }
   .title{
@@ -183,6 +185,9 @@ body {
 
 @media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
   /* STYLES HERE */
+  body{
+    height: 100vh;
+  }
   .course {
     background:var(--primary);
     /* background-color: #08b475; */
@@ -208,6 +213,9 @@ body {
 
 @media only screen and (max-device-width: 480px) {
   /* STYLES HERE */
+  body{
+    height: 100vh;
+  }
   .course {
     /* background-color:#5c54cc; */
       background:var(--primary);

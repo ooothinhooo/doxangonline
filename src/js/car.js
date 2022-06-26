@@ -38,6 +38,28 @@ const app = {
             name: 'Lead',
             dungtich:6.0,
             img:'https://cdn.honda.com.vn/motorbike-generation/December2021/x8Hc2CCtYv7BKa6kuK6j.png'
+        },{
+            name: 'Exciter 150',
+            dungtich:4.2,
+            img:'https://yamaha-motor.com.vn/wp/wp-content/uploads/2019/04/Exciter-Blue-Orange-004-1.png'
+        },{
+            name: 'Vespa',
+            dungtich:7.0,
+            img:'./src/images/vespa1.png'
+        },
+        {
+            name: 'Xe 50CC',
+            dungtich:4.0,
+            img:'https://www.sym.com.vn/uploads/san-pham/cub-50cc/elegant-50/special-black-red/54_973_1617935590.png'
+        },
+        {
+            name: 'Attila 125',
+            dungtich:6.2,
+            img:'https://www.sym.com.vn/uploads/san-pham/scooter-125cc/new-attila-125/new-attila-125.png'
+        },{
+            name: 'Raider',
+            dungtich:4.0,
+            img:'./src/images/raider.png'
         }
     ],
     money: [{
